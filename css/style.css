@@ -9,3 +9,32 @@ body{
   font-weight: 300;
   color: #fff;
 }
+
+.header__top{
+  position: fixed;
+  z-index: 1000;
+  max-width: 100%;
+  background-color: rgba(52, 19, 64, 0.95);
+  left:0;
+  right:0;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+
+.header__top-inner{
+  max-width: 1220px;
+  position: relative;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header__top-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-number{
+  font-size: 36px;
+  line-height: 53px;
+}
