@@ -1,0 +1,11 @@
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
