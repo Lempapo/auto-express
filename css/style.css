@@ -274,3 +274,45 @@ body{
   max-width: 316px;
   padding-bottom: 20px;
 }
+
+.cars__content-items{
+  display: block;
+  padding-bottom: 50px;
+}
+
+.card{
+  text-align: center;
+  align-items: center;
+  padding: 5px 5px 15px 5px;
+  border: 1px solid #C4C4C4;
+  margin-right: 12px;
+  background-color: #fff;
+  transition: 300ms;
+}
+
+.car{
+  max-width: 100%;
+  height: 27vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.car-info{
+  color: #2C2B2B;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  transition: 300ms;
+}
+
+.card:hover{
+  background-color: #21062A;
+}
+
+.card:hover .car-info{
+  color: #fff;
+}
+
+.cars__content{
+  margin-bottom: 100px;
+}
