@@ -234,6 +234,10 @@ body{
   display: flex;
 }
 
+.advertising-car{
+  object-fit: cover;
+}
+
 .advertising-right__inner{
   background-color: #21062A;
   padding-left: 185px;
