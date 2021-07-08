@@ -445,3 +445,22 @@ body{
   display: flex;
   justify-content: center;
 }
+
+.footer{
+  background-color: #21062A;
+}
+
+.footer__inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+
+.politics{
+  display: inline-block;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+}
